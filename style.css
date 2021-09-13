@@ -61,6 +61,7 @@ a{
   color: #1d3557;
   text-decoration: none;
   font-size: 30px;
+
 }
 
 a:hover {
@@ -72,6 +73,20 @@ a:hover {
   padding: 10px 20px;
   border-radius: 5%;
   background-color: rgb(245 245 245);
+}
+
+#piano i {
+  font-size:35px;
+}
+
+#piano {
+  font-size: 20px;
+  color:#FFA2A2;
+  font-weight:450;
+}
+
+#piano:hover {
+  color: rgb(240,240,240);
 }
 
 
