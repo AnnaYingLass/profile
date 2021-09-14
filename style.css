@@ -3,6 +3,28 @@
 and then click top right icon which looks like a windom, and there you can get the html or css link*/
 @import url(https://use.fontawesome.com/releases/v5.2.0/css/all.css);
 
+h1 {
+  font-family: 'Roboto Mono', monospace;
+  color: black;
+}
+
+body{
+    background-color: #d8e2dc;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 17px;
+}
+
+
+a{
+  color: #1d3557;
+  text-decoration: none;
+  font-size: 30px;
+
+}
+
+a:hover {
+  color: rgb(245,245,245);
+}
 
 .container {
   /*border: 5px solid  black;*/
@@ -42,30 +64,6 @@ and then click top right icon which looks like a windom, and there you can get t
 
 #intro {
   margin-bottom: 40px;
-}
-
-
-h1 {
-  font-family: 'Roboto Mono', monospace;
-  color: black;
-}
-
-body{
-    background-color: #d8e2dc;
-    font-family: 'Open Sans', sans-serif;
-    font-size: 17px;
-}
-
-
-a{
-  color: #1d3557;
-  text-decoration: none;
-  font-size: 30px;
-
-}
-
-a:hover {
-  color: rgb(245,245,245);
 }
 
 #button{
@@ -108,3 +106,9 @@ a:hover {
     width: 300px;
   }
 }
+
+#flex {
+  display: flex;
+  justify-content: space-evenly;
+}
+
